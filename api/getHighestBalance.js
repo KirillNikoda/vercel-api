@@ -10,12 +10,12 @@ const DAC_ABI = [
       {
         internalType: "string",
         name: "",
-        type: "string",
-      },
+        type: "string"
+      }
     ],
     stateMutability: "view",
-    type: "function",
-  },
+    type: "function"
+  }
 ];
 
 const DAF_FACTORY_ABI = [
@@ -24,11 +24,11 @@ const DAF_FACTORY_ABI = [
       {
         internalType: "address[]",
         name: "_currencies",
-        type: "address[]",
-      },
+        type: "address[]"
+      }
     ],
     stateMutability: "nonpayable",
-    type: "constructor",
+    type: "constructor"
   },
   {
     anonymous: false,
@@ -37,97 +37,97 @@ const DAF_FACTORY_ABI = [
         indexed: false,
         internalType: "contract Daf",
         name: "daf",
-        type: "address",
-      },
+        type: "address"
+      }
     ],
     name: "DafCreated",
-    type: "event",
+    type: "event"
   },
   {
     inputs: [
       {
         internalType: "string",
         name: "_name",
-        type: "string",
+        type: "string"
       },
       {
         internalType: "string",
         name: "_symbol",
-        type: "string",
+        type: "string"
       },
       {
         internalType: "address",
         name: "_currency",
-        type: "address",
+        type: "address"
       },
       {
         internalType: "uint256",
         name: "_totalSupply",
-        type: "uint256",
+        type: "uint256"
       },
       {
         internalType: "uint256",
         name: "_governanceTokensPrice",
-        type: "uint256",
+        type: "uint256"
       },
       {
         internalType: "uint256",
         name: "_percentToVote",
-        type: "uint256",
+        type: "uint256"
       },
       {
         internalType: "uint256",
         name: "_limitToBuy",
-        type: "uint256",
+        type: "uint256"
       },
       {
         internalType: "uint256",
         name: "_votingDuration",
-        type: "uint256",
-      },
+        type: "uint256"
+      }
     ],
     name: "create",
     outputs: [],
     stateMutability: "nonpayable",
-    type: "function",
+    type: "function"
   },
   {
     inputs: [
       {
         internalType: "uint256",
         name: "",
-        type: "uint256",
-      },
+        type: "uint256"
+      }
     ],
     name: "currencies",
     outputs: [
       {
         internalType: "address",
         name: "",
-        type: "address",
-      },
+        type: "address"
+      }
     ],
     stateMutability: "view",
-    type: "function",
+    type: "function"
   },
   {
     inputs: [
       {
         internalType: "uint256",
         name: "",
-        type: "uint256",
-      },
+        type: "uint256"
+      }
     ],
     name: "dafs",
     outputs: [
       {
         internalType: "contract Daf",
         name: "",
-        type: "address",
-      },
+        type: "address"
+      }
     ],
     stateMutability: "view",
-    type: "function",
+    type: "function"
   },
   {
     inputs: [],
@@ -136,12 +136,12 @@ const DAF_FACTORY_ABI = [
       {
         internalType: "contract Daf[]",
         name: "",
-        type: "address[]",
-      },
+        type: "address[]"
+      }
     ],
     stateMutability: "view",
-    type: "function",
-  },
+    type: "function"
+  }
 ];
 
 const DAC_FACTORY_ABI = [
@@ -150,11 +150,11 @@ const DAC_FACTORY_ABI = [
       {
         internalType: "address[]",
         name: "_currencies",
-        type: "address[]",
-      },
+        type: "address[]"
+      }
     ],
     stateMutability: "nonpayable",
-    type: "constructor",
+    type: "constructor"
   },
   {
     anonymous: false,
@@ -163,102 +163,102 @@ const DAC_FACTORY_ABI = [
         indexed: false,
         internalType: "contract Dac",
         name: "dac",
-        type: "address",
-      },
+        type: "address"
+      }
     ],
     name: "DacCreated",
-    type: "event",
+    type: "event"
   },
   {
     inputs: [
       {
         internalType: "string",
         name: "_name",
-        type: "string",
+        type: "string"
       },
       {
         internalType: "string",
         name: "_symbol",
-        type: "string",
+        type: "string"
       },
       {
         internalType: "address",
         name: "_currency",
-        type: "address",
+        type: "address"
       },
       {
         internalType: "address[]",
         name: "_teammates",
-        type: "address[]",
+        type: "address[]"
       },
       {
         internalType: "uint256",
         name: "_totalSupply",
-        type: "uint256",
+        type: "uint256"
       },
       {
         internalType: "uint256",
         name: "_governanceTokensPrice",
-        type: "uint256",
+        type: "uint256"
       },
       {
         internalType: "bool",
         name: "_purchasePublic",
-        type: "bool",
+        type: "bool"
       },
       {
         internalType: "bool",
         name: "_halfToVote",
-        type: "bool",
+        type: "bool"
       },
       {
         internalType: "uint256",
         name: "_votingDuration",
-        type: "uint256",
-      },
+        type: "uint256"
+      }
     ],
     name: "create",
     outputs: [],
     stateMutability: "nonpayable",
-    type: "function",
+    type: "function"
   },
   {
     inputs: [
       {
         internalType: "uint256",
         name: "",
-        type: "uint256",
-      },
+        type: "uint256"
+      }
     ],
     name: "currencies",
     outputs: [
       {
         internalType: "address",
         name: "",
-        type: "address",
-      },
+        type: "address"
+      }
     ],
     stateMutability: "view",
-    type: "function",
+    type: "function"
   },
   {
     inputs: [
       {
         internalType: "uint256",
         name: "",
-        type: "uint256",
-      },
+        type: "uint256"
+      }
     ],
     name: "dacs",
     outputs: [
       {
         internalType: "contract Dac",
         name: "",
-        type: "address",
-      },
+        type: "address"
+      }
     ],
     stateMutability: "view",
-    type: "function",
+    type: "function"
   },
   {
     inputs: [],
@@ -267,18 +267,21 @@ const DAC_FACTORY_ABI = [
       {
         internalType: "contract Dac[]",
         name: "",
-        type: "address[]",
-      },
+        type: "address[]"
+      }
     ],
     stateMutability: "view",
-    type: "function",
-  },
+    type: "function"
+  }
 ];
 
 module.exports = async (req, res) => {
+  const { getTvl = false } = req.query;
+
   const provider = new ethers.providers.JsonRpcProvider(
     "https://bsc-dataseed.binance.org/"
   );
+
   const DAC_FACTORY_ADDRESS = "0x9C9A04EBE8c3F06daeA2D52069FFE73BbA807a7B";
   const DAC_FACTORY_ADDRESS_OLD_2 =
     "0x0C6ce89076b9222689bEF148fdbb4CEef6002CA0";
@@ -327,7 +330,7 @@ module.exports = async (req, res) => {
     dacFactory3.getDacs(),
     dafFactory1.getDafs(),
     dafFactory2.getDafs(),
-    dafFactory3.getDafs(),
+    dafFactory3.getDafs()
   ]);
 
   let dacs = [...dacs1, ...dacs2, ...dacs3];
@@ -339,7 +342,7 @@ module.exports = async (req, res) => {
       const name = await dacContract.name();
       return {
         address,
-        name,
+        name
       };
     })
   );
@@ -350,14 +353,12 @@ module.exports = async (req, res) => {
       const name = await dafContract.name();
       return {
         address,
-        name,
+        name
       };
     })
   );
 
   let daos = [...dacs, ...dafs];
-
-  console.log(dacs, dafs);
 
   daos = await Promise.all(
     daos.map(async ({ address, name }) => {
@@ -367,10 +368,17 @@ module.exports = async (req, res) => {
       return {
         daoAddress: address,
         usd_value: balance.data.usd_value,
-        name,
+        name
       };
     })
   );
+
+  if (getTvl) {
+    const tvl = daos.reduce((acc, val) => acc + +val.usd_value, 0);
+
+    res.status(200).send(tvl);
+    return;
+  }
 
   const sorted = daos.sort((a, b) => b.usd_value - a.usd_value);
 
